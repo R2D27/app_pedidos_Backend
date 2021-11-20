@@ -20,7 +20,7 @@ export class Persona extends Entity {
     type: 'string',
     required: true,
   })
-  apellido: string;
+  apellidos: string;
 
   @property({
     type: 'string',
@@ -36,7 +36,7 @@ export class Persona extends Entity {
 
   @property({
     type: 'string',
-    required: true,
+    required: false,
   })
   clave: string;
 
